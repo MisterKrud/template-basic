@@ -5,7 +5,7 @@
    entry: "./src/index.js",
    plugins: [
      new HtmlWebpackPlugin({
-       title: 'Production',
+      template: "./src/template.html",
      }),
    ],
     module: {
