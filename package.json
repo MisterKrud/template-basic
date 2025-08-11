@@ -1,7 +1,8 @@
 {
-  "name": "to-do-list",
+  "name": "template-basic",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
